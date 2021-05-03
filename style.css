@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+* {
+	margin: 0;
+	padding: 0
+}
+
+body {
+background: #C33764;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.title {
+	width: 367px;
+    background-color: black;
+    height: 91px;
+    border-radius: 50px;
+    margin: 30px auto;
+}
+
+.title h3 {
+	color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+    text-shadow: 3px 5px 5px yellow;
+    padding: 33px;
+    text-transform: uppercase;
+
+}
+
+h2 {
+	margin: 0 auto;
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    color: white;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 2px grey;
+}
+
+.main-heading {
+	padding-bottom: 20px;
+	margin-top:-20px;
+    
+}
+
+.row .col {
+	margin-bottom: 10px;
+	
+
+}
+.row .col .box-style {
+	display: inline-block;
+	background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid black
+}
+
+.row .col img {
+	width: 40px;
+	height: 40px;
+	
+}
+
+.row .col .card-body {
+	display: inline-block;
+	font-family: serif;
+    font-style: italic;
+    color: white
+}
+
+.row .col .card-body a{
+	color: white;
+	transition: 3s ease all
+}
+
+.row .col .card-body a:hover{
+	color: yellow;
+	text-decoration: none;
+}
+
+.content {
+	background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	    color: white;
+    padding: 10px 10px;
+        box-shadow: 0px 1px 4px 3px white;
+}
+
+.content p {
+	font-family: emoji;
+	text-align: center;
+	font-family: 'Lora', serif;
+}
+
+.faq {
+	background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    box-shadow: 0px 1px 4px 3px white;
+}
+
+
+.faq p{
+	font-family: emoji;
+	text-align: center;
+	font-family: 'Lora', serif;
+}
